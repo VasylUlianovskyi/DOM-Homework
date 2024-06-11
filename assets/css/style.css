@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tast-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-img {
+  width: 200px;
+  padding: 10px;
+}
+
+.click-btn {
+  width: 100px;
+  padding: 25px;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  border-radius: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.user {
+  padding: 50px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.user-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-fullname {
+  margin: 10px 0;
+}
+
+.user-nick,
+.user-birthday {
+  margin: 5px 0;
+}
+
+.user-like {
+  color: grey;
+  cursor: pointer;
+}
