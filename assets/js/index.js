@@ -67,7 +67,7 @@ function loadEvent() {
   <h2 class="user-fullName">${user.firstName} ${user.lastName}</h2>
   <p class="user-nick">${user.nickname}</p>
   <p class="user-birthday">${user.birthday.toDateString()}</p>
-  <p class="user-like">&#10084 <span class="like-count"> ${
+  <p class="user-like">&#10084<span class="like-count"> ${
     user.likesCount
   }</span></p>
   <p></p>
