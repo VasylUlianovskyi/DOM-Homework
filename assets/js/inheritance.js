@@ -47,7 +47,9 @@ class PassengerTransport extends Vehicle {
   }
 
   getFullInfo() {
-    return `Brand: ${this.brand}, Model: ${this.model}, Age:${this.age} years, Max Passengers: ${this.passengerLimit}, Current Passengers: ${this.passengerCount} `;
+    return `${super.getFullInfo()}, Max Passengers: ${
+      this.passengerLimit
+    }, Current Passengers: ${this.passengerCount} `;
   }
 }
 
@@ -75,7 +77,7 @@ class FreightTransport extends Vehicle {
   }
 
   getFullInfo() {
-    return `Brand: ${this.brand}, Model: ${this.model}, Age:${this.age} years, Capacity: ${this.capacity} kg`;
+    return `${super.getFullInfo()}, Capacity: ${this.capacity} kg`;
   }
 }
 
