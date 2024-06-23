@@ -63,14 +63,13 @@ function loadEvent() {
   const userCard = document.getElementById("userCard");
   userCard.innerHTML = `
   <div class="user-card">
-  <img class="user-img" src=${user.profilePhoto} alt="user-photo">
-  <h2 class="user-fullName">${user.firstName} ${user.lastName}</h2>
-  <p class="user-nick">${user.nickname}</p>
-  <p class="user-birthday">${user.birthday.toDateString()}</p>
-  <p class="user-like">&#10084<span class="like-count"> ${
-    user.likesCount
-  }</span></p>
-  <p></p>
+    <img class="user-img" src=${user.profilePhoto} alt="user-photo">
+    <h2 class="user-fullName">${user.firstName} ${user.lastName}</h2>
+    <p class="user-nick">${user.nickname}</p>
+    <p class="user-birthday">${user.birthday.toDateString()}</p>
+    <p class="user-like">&#10084
+      <span class="like-count"> ${user.likesCount}</span>
+    </p>
 </div>
   `;
 
